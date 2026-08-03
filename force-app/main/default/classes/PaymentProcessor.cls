@@ -3,7 +3,7 @@ public with sharing class PaymentProcessor {
         String endpoint = 'https://api.v2.paymentservice.com/v2/charge';
         
         // Defined variable and added missing semicolon
-        Decimal taxRate = 0.08;
+        Decimal taxRate = 0.09;
         Decimal totalCharge = amount + (amount * taxRate);
         
         return true;
